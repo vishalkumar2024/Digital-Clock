@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    background-image: url("https://media.istockphoto.com/id/1225346086/photo/sunrise-with-rainbow-in-the-patagonian-andes-mountains.jpg?s=612x612&w=0&k=20&c=ogU-ffcuD0MaRLl6GDPv8jDweFUl4_0RfPpjXCybfiI=");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-wrap: wrap;
+    padding-top: 17%;
+}
+
+.clock {
+    height: 90px;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1), 0 10px 20px rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    padding: 20px;
+}
+
+.clock h1 {
+    font-size: 2.8rem;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+}
+
+.clock span {
+    position: relative;
+    top: -8px;
+    left: 8px;
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: rgba(0, 0, 0, 0.88);
+
+}
